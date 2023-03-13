@@ -1,0 +1,20 @@
+Project Dependancies
+
+app.py
+  - QuoteEngine
+    - Ingestor
+  - MemeEngine
+
+meme.py
+  -QuoteEngine
+    - QuoteModel
+    - Ingestor
+
+MemeEngine.py
+  -QuoteEngine
+    -QuoteModel
+
+Ingestor
+  -IngestCSV, IngestDocx, IngestPF, IngestTXT
+    -IngestorInterface
+    -QuoteModel
